@@ -115,4 +115,44 @@ nav ul li:nth-child(4) a, nav ul li:nth-child(4) a span{
 	background-color: #909673;
 }
 
+.widget{
+	background: url(../images/widget-shadow.png) top right no-repeat;
+	padding: 30px;
+	margin: 30px 0 0 0;
+}
+
+.widget h4{
+	color: #909673;
+	text-align: right;
+	font-size: 16px;
+	text-shadow: 2px 2px 0 #e2e2e5;
+	margin: 0 0 12px 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+.widget .date{
+	background: #909673;
+	color: #ffecc5;
+	padding-left: 3px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 235px;
+	margin: 0 0 12px -30px;
+	padding: 3px;
+	letter-spacing:3px;
+	font-size: 12px;
+}
+
+.widget h5{
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0 0 6px 0;
+}
+
+.widget p {
+	color: #999;
+	font-size: 12px;
+}
 
