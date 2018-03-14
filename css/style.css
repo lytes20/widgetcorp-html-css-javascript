@@ -189,3 +189,22 @@ nav ul li:nth-child(4) a, nav ul li:nth-child(4) a span{
 	font-size: 12px;
 }
 
+
+footer{
+	width: 800px;
+	margin: 0 auto 20px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2;
+}
+
+#quote{
+	width: 50%;
+	float: left;
+}
+
+#copyright{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
