@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background: black url(../images/bg.jpg);
+}
+
+body{
+	font: 14px/1.4 Georgia. serif;
+}
+
+/* Begin clear fix hack */
+.group:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.group { display: inline-block; }
+/* start commented backslash hack \*/
+* html .group { height: 1%; }
+.group { display: block; }
+/* close commented backslash hack */
+
+/* End clear fix hack */
+
+
+article, aside, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+#page_wrap{
+	width: 800px;
+	margin: 30px auto 10px;
+	background: white;
+}
+
+header{
+	position: relative;
+	padding: 0px 0px 0px 280px;
+	border-bottom: 1px solid #666;
+}
+
+header p{
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+}
+
+h1{
+	padding: 40px 0px 20px 20px;
+	font: 36px Helvetica, Arial;
+	text-transform: uppercase;
+	color: #666;
+	text-shadow: 2px 2px 0 #e2e2e5;
+	border-left: 1px solid #666;
+}
+ #logo{
+ 	position: absolute;
+ 	top: -25px; left: -50px;
+ 	background: url(../images/logo.png) no-repeat;
+ 	width: 295px; 
+ 	height: 191px;
+ 	
+ }
+
+ #main_content{
+ 	float: right;
+ 	width: 500px;
+ }
+
+aside{
+	padding: 80px 0 0 0;
+	float: left;
+	width: 275px;
+}
+
+aside nav ul li{
+	list-style: none;
+}
+
+aside nav ul li a{
+	display: block;
+	padding:10px 10px 10px 25px;
+	background-color: #647484;
+	margin: 0 0 5px 0;
+	color: white;
+	text-decoration: none;
+	position: relative;  
+}
+aside nav ul li a span{
+	position: absolute;
+	right: 100%;
+	top: 5px;
+	width: 15px;
+	height: 100%;
+	background-color: #647484;
+	background-image: url(../images/navshadow.png);
+	background-position: top right;
+	background-repeat: repeat-y;
+}
+nav ul li:nth-child(2) a, nav ul li:nth-child(2) a span{
+	background-color: #728c8c;
+}
+
+nav ul li:nth-child(3) a, nav ul li:nth-child(3) a span{
+	background-color: #768c72;
+}
+
+nav ul li:nth-child(4) a, nav ul li:nth-child(4) a span{
+	background-color: #909673;
+}
+
+
